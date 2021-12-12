@@ -9,7 +9,9 @@
 ### 这是第三个界面（……）
 ![6E285414DE146272531E439067422DAE](https://user-images.githubusercontent.com/92451142/145710751-56da07a2-ddbf-4614-a90e-1f6ccb8d2702.jpg)
 ## 那么，简单说一下我原来的想法吧
-+ 首先，我写好了一个登录的fragment界面，然后成功添加了注册的dialog界面，并成功实现了登录、注册（上次作业没搞清楚的）
++ 首先，我写好了一个登录的fragment界面，然后成功添加了注册的dialog界面，并成功实现了登录、注册（上次作业没搞清楚的）（上图自证清白）
++ ![0369AFCAA8A2B10E6D24FA32DF99850A](https://user-images.githubusercontent.com/92451142/145711432-eb626599-7d01-43c7-b84c-eb1fb66a18b1.jpg)
++ ![D20068CE952978541E1B68EA2E16E70C](https://user-images.githubusercontent.com/92451142/145711434-d0efade0-b808-435c-9b83-4bfd94557dec.jpg)
 + 然后，我开始看这次廖学长推荐的必做的lv3，那么问题来了，首先这几个界面没组合在一起过，并且都不太熟悉。但我有个大胆的想法。。。我把recycler界面添加一个按钮，用来写入数据，然后这个界面在写完后就进行刷新，按顺序输出写入类容，写入的格式就确定为EditText“标题”+EditText“类容”，以标题为key存入信息，标题重复则弹出dialog提示是否替换类容，写完后还可以当一个个人私用的记事本（bushi）。而问题就是这时候出现的，我在写代码时边学边写废了蛮长时间，查询了一系列资料，
 （查询资料）
 ![image](https://user-images.githubusercontent.com/92451142/145711090-62280c3b-6545-447a-b990-eafbffe82449.png)
