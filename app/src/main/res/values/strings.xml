@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TryAgain</string>
+    <string name="n">这是一个用了一个小时做出来的东西:(</string>
+    <string name="todo">TODO</string>
+    <string name="www">因为我写了好久的那个报废了:(\n因为没写注释等一系列解释性的东西\n以至于在出了问题后完全找不到问题在哪:(\n（一次性写太多东西了，然后一运行直接崩掉:( )</string>
+</resources>
