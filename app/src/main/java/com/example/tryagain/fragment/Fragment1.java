@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 
 import com.example.tryagain.R;
 
+/**
+ *fragment界面一
+ */
+
 public class Fragment1 extends Fragment {
 
     @Nullable
@@ -22,6 +26,5 @@ public class Fragment1 extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
     }
 }

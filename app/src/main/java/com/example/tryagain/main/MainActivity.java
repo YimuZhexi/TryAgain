@@ -15,6 +15,10 @@ import com.example.tryagain.recycler.Recycler;
 
 import java.util.ArrayList;
 
+/**
+ * 主界面
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
-        }
-        setView();
+        }//隐藏标题栏
+        setView();//设置界面
     }
 
     public void setView(){
@@ -32,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Fragment> fragments = new ArrayList<>();
         fragments.add(new Fragment1());
         fragments.add(new Fragment2());
-        fragments.add(new Recycler());
-        FragmentStateAdapter adapter = new FragmentStateAdapter(this,fragments);
-        viewPager2.setAdapter(adapter);
+        fragments.add(new Recycler());//添加fragment界面
+        FragmentStateAdapter adapter = new FragmentStateAdapter(this,fragments);//
+        viewPager2.setAdapter(adapter);//设置adapter
     }
 }

@@ -20,6 +20,11 @@ import com.example.tryagain.data.outText;
 import java.util.ArrayList;
 import java.util.Objects;
 
+/**
+ * 继承自fragment的recycler
+ * （以fragment形式显示recycler）
+ */
+
 public class Recycler extends Fragment {
     View view;
 
@@ -28,7 +33,6 @@ public class Recycler extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.activity_recycler, container, false);
         dataAdd();
-
         return view;
     }
 
@@ -37,6 +41,7 @@ public class Recycler extends Fragment {
         super.onViewCreated(view, savedInstanceState);
     }
 
+    //添加假数据
     public void dataAdd() {
         ArrayList<outText> data = new ArrayList<>();
         outText text = new outText();

@@ -13,9 +13,14 @@ import com.example.tryagain.data.outText;
 
 import java.util.ArrayList;
 
+/**
+ * recyclerView界面的adapter
+ */
+
 public class adapter extends RecyclerView.Adapter<adapter.InnerHolder> {
 
-    private ArrayList<outText>arrayList;
+    //创建ArrayList储存数据
+    private final ArrayList<outText>arrayList;
 
     public adapter(ArrayList<outText>data){
         this.arrayList=data;
@@ -27,17 +32,20 @@ public class adapter extends RecyclerView.Adapter<adapter.InnerHolder> {
         return new InnerHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_recycler, parent, false));
     }
 
+    //设置recyclerView数据
     @Override
     public void onBindViewHolder(@NonNull adapter.InnerHolder holder, int position) {
         holder.tvHead.setText(arrayList.get(position).getHead());
         holder.tvBody.setText(arrayList.get(position).getBody());
     }
 
+    //获得recyclerView长度
     @Override
     public int getItemCount() {
         return arrayList.size();
     }
 
+    //绑定控件和item页面
     public static class InnerHolder extends RecyclerView.ViewHolder{
         TextView tvHead;
         TextView tvBody;

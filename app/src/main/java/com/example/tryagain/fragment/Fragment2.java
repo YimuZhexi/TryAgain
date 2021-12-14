@@ -12,6 +12,10 @@ import android.view.ViewGroup;
 
 import com.example.tryagain.R;
 
+/**
+* fragment界面二
+*/
+
 public class Fragment2 extends Fragment {
 
     @Nullable

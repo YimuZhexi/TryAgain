@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".recycler.Recycler">
 
+    <!--可上下滑动的recyclerView界面-->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

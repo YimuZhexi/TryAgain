@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".fragment.Fragment2">
 
+    <!--fragment2界面设置-->
+
+    <!--ImageView控件设置-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
@@ -16,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <!--TextView控件设置-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
